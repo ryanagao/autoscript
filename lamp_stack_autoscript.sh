@@ -3,14 +3,13 @@ cd
 # MySQL Password to be used
 MYSQL_PASSWORD=ryan1996
 
-export DEBIAN_FRONTEND=noninteractive
-
 echo ""
 echo "|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|"
 echo "|  EXECUTING LAMP_STACK_AUTOSCRIPT  |"
 echo "|___________________________________|"
 echo ""
 sudo apt-get update
+export DEBIAN_FRONTEND=noninteractive
 
 echo ""
 echo "|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|"
@@ -34,7 +33,7 @@ echo "|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|"
 echo "|  INSTALLING APACHE  |"
 echo "|_____________________|"
 echo ""
-sudo apt-get install apache2 libapache2-mod-php -y
+# sudo apt-get install apache2 libapache2-mod-php -y
 
 echo ""
 echo "|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|"
@@ -50,8 +49,8 @@ echo "|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|"
 echo "|  INSTALLING PHP  |"
 echo "|__________________|"
 echo ""
-sudo apt-get install php7.2 -y
-sudo apt-get install php7.2-cli php7.2-gd php7.2-mysql php7.2-curl php7.2-mbstring php7.2-xml -y
+# sudo apt-get install php7.2 -y
+# sudo apt-get install php7.2-cli php7.2-gd php7.2-mysql php7.2-curl php7.2-mbstring php7.2-xml -y
 
 echo ""
 echo "|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|"
