@@ -3,6 +3,8 @@ cd
 # MySQL Password to be used
 MYSQL_PASSWORD=ryan1996
 
+export DEBIAN_FRONTEND=noninteractive
+
 echo ""
 echo "|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|"
 echo "|  EXECUTING LAMP_STACK_AUTOSCRIPT  |"
@@ -25,7 +27,7 @@ echo "|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾�
 echo "|  INSTALLING GIT, UNZIP, CURL  |"
 echo "|_______________________________|"
 echo ""
-sudo apt-get install git, un -y
+sudo apt-get install git unzip curl -y
 
 echo ""
 echo "|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|"
@@ -50,3 +52,9 @@ echo "|__________________|"
 echo ""
 sudo apt-get install php7.2 -y
 sudo apt-get install php7.2-cli php7.2-gd php7.2-mysql php7.2-curl php7.2-mbstring php7.2-xml -y
+
+echo ""
+echo "|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|"
+echo "|  DONE EXECUTING LAMP_STACK_AUTOSCRIPT  |"
+echo "|________________________________________|"
+echo ""
