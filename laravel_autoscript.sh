@@ -92,7 +92,7 @@ sudo a2enmod rewrite
 sudo service apache2 restart
 
 echo ""
-echo "|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|"
-echo "|  DONE EXECUTING LAMP_STACK_AUTOSCRIPT  |"
-echo "|________________________________________|"
+echo "|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|"
+echo "|  DONE EXECUTING LARAVEL_AUTOSCRIPT  |"
+echo "|_____________________________________|"
 echo ""
