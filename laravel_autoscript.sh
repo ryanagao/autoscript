@@ -63,6 +63,7 @@ echo "|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|"
 echo "|  INSTALLING LARAVEL  |"
 echo "|______________________|"
 echo ""
+cd /var/www/html
 sudo composer create-project laravel/laravel laravel-project --prefer-dist
 
 sudo chgrp -R www-data /var/www/html/laravel-project
