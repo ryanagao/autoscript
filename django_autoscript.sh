@@ -5,6 +5,7 @@ PORT=8080
 PROJECT_NAME=django_rest
 DIRECTORY_NAME=python_project
 VENV_NAME=python-venv
+DJANGO_VERSION=1.11
 
 echo ""
 echo "|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|"
@@ -63,7 +64,8 @@ echo "|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|"
 echo "|  INSTALLING DJANGO   |"
 echo "|______________________|"
 echo ""
-pip install django
+pip install django==$DJANGO_VERSION
+pip install djangorestframework==3.6.2
 
 echo ""
 echo "|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|"
