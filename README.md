@@ -14,3 +14,8 @@ To run laravel_autoscript.sh
 ```bash
 wget --no-cache -O - https://raw.githubusercontent.com/ryanagao/autoscript/master/laravel_autoscript.sh | bash
 ```
+
+To run django_autoscript.sh
+```bash
+wget --no-cache -O - https://raw.githubusercontent.com/ryanagao/autoscript/master/django_autoscript.sh | bash
+```
