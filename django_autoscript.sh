@@ -2,10 +2,10 @@ cd
 
 IP_ADDRESS=192.168.1.100
 PORT=8080
-PROJECT_NAME=django_rest
+PROJECT_NAME=django_project
 DIRECTORY_NAME=python_project
 VENV_NAME=python-venv
-DJANGO_VERSION=1.11
+DJANGO_VERSION=2.1
 
 echo ""
 echo "|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|"
